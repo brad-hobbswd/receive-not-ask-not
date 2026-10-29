@@ -339,3 +339,20 @@ p { max-width: 74ch; }
   .book-cover { width: min(86%, 20rem); }
   .author-portrait { width: clamp(10rem, 52vw, 13rem); }
 }
+/* Let the cover carry the visible title while the book description wraps beside it. */
+.book-overview .book-cover {
+  float: left;
+  width: min(42%, 17rem);
+  margin: .35rem 1.5rem 1.1rem 0;
+}
+.book-overview .actions,
+.book-overview .callout {
+  clear: both;
+}
+@media (max-width: 42rem) {
+  .book-overview .book-cover {
+    float: none;
+    width: min(76%, 18rem);
+    margin: 1.25rem auto 1.75rem;
+  }
+}
