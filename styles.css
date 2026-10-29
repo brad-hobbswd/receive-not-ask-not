@@ -356,3 +356,18 @@ p { max-width: 74ch; }
     margin: 1.25rem auto 1.75rem;
   }
 }
+/* Wrap the author's biography around the portrait on wider screens. */
+.author-overview .author-portrait {
+  float: left;
+  width: min(40%, 15rem);
+  margin: .35rem 1.5rem 1rem 0;
+  shape-outside: circle(50%);
+}
+@media (max-width: 42rem) {
+  .author-overview .author-portrait {
+    float: none;
+    width: clamp(10rem, 52vw, 13rem);
+    margin: 1.25rem auto 1.75rem;
+    shape-outside: none;
+  }
+}
