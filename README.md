@@ -52,6 +52,6 @@ The book is organized into ten main chapters. Real-conversation sections, labele
 
 ## Project notes
 
-The website is a static GitHub Pages site. Its chapter source files are currently plain text/Markdown content in `.html` files; the new landing and information pages use shared HTML and CSS. The Chapter Three filename currently contains a comma (`chap3,html`).
+The website is a static GitHub Pages site with a shared responsive layout, a cinematic blue-and-gold theme, and a panoramic banner on the homepage. Chapter and conversation pages use the same reading layout while preserving their source text. The Chapter Three page remains at its current path, `chap3,html`.
 
 Copyright © 2026 Bradley Hobbs. All rights reserved. Original writing, devotional and teaching materials, website copy, visual design, graphics, and code are protected by copyright. Third-party materials remain subject to their owners' terms.
