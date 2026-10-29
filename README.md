@@ -10,6 +10,7 @@ A devotional and conversation-based exploration of prayer, disappointment, askin
 
 - [Home](index.html)
 - [About the book](book.html)
+- [Table of contents](contents.html)
 - [About the author](about.html)
 - [Reading resources](resources.html)
 - [Contact](contact.html)
