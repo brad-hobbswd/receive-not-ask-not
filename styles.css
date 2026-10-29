@@ -294,3 +294,8 @@ p { max-width: 74ch; }
 @media (prefers-reduced-motion: reduce) {
   .page-nav a { transition: none; }
 }
+/* Tie each real-conversation entry back to the chapter it accompanies. */
+.toc-entry { display: flex; min-width: 0; flex: 1 1 auto; flex-direction: column; align-self: center; gap: .28rem; }
+.toc-entry > a { font-weight: 700; line-height: 1.45; }
+.toc-source { color: var(--muted); font: .8rem/1.45 system-ui, sans-serif; }
+.toc-source a { color: var(--accent-dark); font-weight: 700; }
