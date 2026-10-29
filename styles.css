@@ -371,3 +371,60 @@ p { max-width: 74ch; }
     shape-outside: none;
   }
 }
+/* Group each real conversation beneath the chapter it accompanies. */
+.chapter-toc-list > li {
+  display: block;
+  padding: 1rem;
+}
+.chapter-toc-list > li > .toc-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: .7rem;
+}
+.chapter-toc-list > li > .toc-entry > strong {
+  flex: 0 0 auto;
+  min-width: 4.7rem;
+  padding: .24rem .4rem;
+  border: 1px solid #d9bd83;
+  border-radius: .25rem;
+  background: #f4ead4;
+  color: var(--accent-dark);
+  font: 700 .76rem/1.45 system-ui, sans-serif;
+  text-align: center;
+}
+.toc-related {
+  margin: .8rem 0 0 5.4rem;
+  padding: .7rem 0 0 .8rem;
+  border-top: 1px solid #e2d4b8;
+  border-left: 2px solid #d4ae66;
+  list-style: none;
+}
+.toc-list .toc-related li {
+  display: flex;
+  align-items: flex-start;
+  gap: .65rem;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.toc-list .toc-related li:hover,
+.toc-list .toc-related li:focus-within {
+  border: 0;
+  box-shadow: none;
+}
+.toc-related li > strong {
+  flex: 0 0 auto;
+  min-width: 3rem;
+}
+.toc-related li > a {
+  align-self: center;
+  font-weight: 600;
+  line-height: 1.45;
+}
+@media (max-width: 30rem) {
+  .toc-related { margin-left: 0; }
+}
