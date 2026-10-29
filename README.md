@@ -14,7 +14,6 @@ A devotional and conversation-based exploration of prayer, disappointment, askin
 - [Reading resources](resources.html)
 - [Contact](contact.html)
 - [Copyright](copyright.html)
-- [License and permissions](license.html)
 - [Terms of use](terms.html)
 - [Privacy information](privacy.html)
 - [Introduction](intro.html)
