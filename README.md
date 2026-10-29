@@ -6,6 +6,19 @@ A devotional and conversation-based exploration of prayer, disappointment, askin
 
 [Visit the website](https://brad-hobbswd.github.io/receive-not-ask-not/)
 
+## Explore the site
+
+- [Home](index.html)
+- [About the book](book.html)
+- [About the author](about.html)
+- [Reading resources](resources.html)
+- [Contact](contact.html)
+- [Copyright](copyright.html)
+- [Terms of use](terms.html)
+- [Privacy information](privacy.html)
+- [Introduction](intro.html)
+- [Sitemap](sitemap.xml)
+
 ## Book structure
 
 The book is organized into ten main chapters. Real-conversation sections, labeled **A**, accompany the chapter themes.
@@ -14,20 +27,18 @@ The book is organized into ten main chapters. Real-conversation sections, labele
 | --- | --- | --- |
 | 1 | Why We Don't Ask | [chap1.html](chap1.html) |
 | 2 | When We Have Asked Before | [chap2.html](chap2.html) |
-| 3 | The Things We Carry Alone | [chap3%2Chtml](chap3%2Chtml) |
+| 3 | The Things We Carry Alone | [chap3,html](chap3,html) |
 | 4 | What Are We Really Asking For? | [chap4.html](chap4.html) |
 | 5 | When the Answer Never Comes | [chap5.html](chap5.html) |
 | 6 | Learning to Ask Again | [chap6.html](chap6.html) |
 | 7 | Learning to Trust What We Cannot See | [chap7.html](chap7.html) |
 | 8 | When Asking for Help Feels Like Weakness | [chap8.html](chap8.html) |
-| 9 | When You Don't Know What to Ask For | [chap9.html](chap9.html) |
+| 9 | When You Don't Know What to Ask For | [Chapter Nine page status](index.html) |
 | 10 | Keep Asking | [chap10.html](chap10.html) |
 
-> **Page note:** The current `chap9.html` file duplicates the “About My Dad” conversation in `chap8a.html`. The Chapter Nine title above reflects the completed book structure; the page content needs to be brought into alignment.
+**Chapter Nine page note:** The current `chap9.html` file duplicates the “About My Dad” conversation in `chap8a.html`. The completed Chapter Nine title is documented above, but its page content still needs to be aligned with the book.
 
 ## Real conversations
-
-The companion sections preserve individual voices and experiences. Some participants are identified by first name; one conversation is presented anonymously.
 
 | Section | Focus | Page |
 | --- | --- | --- |
@@ -38,19 +49,11 @@ The companion sections preserve individual voices and experiences. Some particip
 | 5A | Sister Pauline: When the Answer Takes Years | [chap5a.html](chap5a.html) |
 | 6A | Anonymous: When You Are Not Allowed to Ask | [chap6a.html](chap6a.html) |
 | 7A | Jackie: When You Have Been Sick for So Long | [chap7a.html](chap7a.html) |
-| 8A | A conversation about Bradley's dad: When Life Does Not Wait for You to Grieve | [chap8a.html](chap8a.html) |
+| 8A | A Conversation About My Dad: When Life Does Not Wait for You to Grieve | [chap8a.html](chap8a.html) |
 | 9A | Mamaw Anna: Until I Heard from Heaven | [chap9a.html](chap9a.html) |
 
-## Website
+## Project notes
 
-This is a static website published with GitHub Pages. It contains the introduction, chapter pages, real-conversation sections, and the supporting search-engine files.
+The website is a static GitHub Pages site. Its chapter source files are currently plain text/Markdown content in `.html` files; the new landing and information pages use shared HTML and CSS. The Chapter Three filename currently contains a comma (`chap3,html`).
 
-- [Introduction](intro.html)
-- [Sitemap](sitemap.xml)
-- [Crawler instructions](robots.txt)
-
-## Copyright
-
-Copyright © 2026 Bradley Hobbs. All rights reserved.
-
-Original writing, devotional and teaching materials, website copy, visual design, graphics, and code are protected by copyright. Written permission is required before reuse, republication, redistribution, modification, or commercial use, except where applicable law permits otherwise. Third-party materials remain subject to their owners' terms.
+Copyright © 2026 Bradley Hobbs. All rights reserved. Original writing, devotional and teaching materials, website copy, visual design, graphics, and code are protected by copyright. Third-party materials remain subject to their owners' terms.
