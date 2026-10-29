@@ -34,10 +34,8 @@ The book is organized into ten main chapters. Real-conversation sections, labele
 | 6 | Learning to Ask Again | [chap6.html](chap6.html) |
 | 7 | Learning to Trust What We Cannot See | [chap7.html](chap7.html) |
 | 8 | When Asking for Help Feels Like Weakness | [chap8.html](chap8.html) |
-| 9 | When You Don't Know What to Ask For | [Chapter Nine page status](index.html) |
+| 9 | When You Don't Know What to Ask For | [chap9.html](chap9.html) |
 | 10 | Keep Asking | [chap10.html](chap10.html) |
-
-**Chapter Nine page note:** The current `chap9.html` file duplicates the “About My Dad” conversation in `chap8a.html`. The completed Chapter Nine title is documented above, but its page content still needs to be aligned with the book.
 
 ## Real conversations
 
