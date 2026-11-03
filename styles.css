@@ -606,3 +606,28 @@ p { max-width: 74ch; }
   .home-site-header .header-inner { flex-direction: row; align-items: center; }
   .home-site-header .brand { max-width: calc(100% - 6.5rem); }
 }
+
+/* Keep the mobile brand and menu control on the same header row. */
+@media (max-width: 48rem) {
+  .header-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: .65rem;
+  }
+  .header-inner > .brand {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: calc(100% - 6.5rem);
+    overflow-wrap: break-word;
+  }
+  .header-inner > .mobile-navigation {
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+  .home-site-header .header-inner > .brand {
+    max-width: calc(100% - 6.5rem);
+  }
+}
