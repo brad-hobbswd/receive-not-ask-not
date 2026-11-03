@@ -563,12 +563,12 @@ p { max-width: 74ch; }
     font: 700 .88rem/1 system-ui, sans-serif;
   }
   .mobile-navigation > summary::-webkit-details-marker { display: none; }
-  .mobile-navigation > summary span {
-    display: block;
-    width: 1rem;
-    height: 2px;
-    position: absolute;
-    opacity: 0;
+  .mobile-navigation > summary span { display: none; }
+  .mobile-navigation > summary::before {
+    content: "☰";
+    display: inline-block;
+    font-size: 1.15rem;
+    line-height: 1;
   }
   .mobile-navigation > summary b { font-weight: 700; }
   .mobile-navigation[open] > summary { background: #2b496b; }
