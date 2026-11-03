@@ -472,3 +472,68 @@ p { max-width: 74ch; }
 @media (max-width: 30rem) {
   .toc-related { margin-left: 0; }
 }
+
+
+/* About the author: portrait floats beside the biography without a visible frame. */
+.author-overview {
+  max-width: 62rem;
+}
+.author-overview .author-portrait {
+  float: left;
+  width: clamp(12rem, 32%, 18rem);
+  aspect-ratio: 4 / 5;
+  margin: .35rem 1.8rem 1.1rem 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: .65rem;
+  background: transparent;
+  box-shadow: 0 16px 34px rgba(16, 33, 56, .28);
+  shape-outside: inset(0 round .65rem);
+}
+.author-overview .author-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: .65rem;
+  object-fit: cover;
+  object-position: center 28%;
+}
+.author-overview .lede {
+  max-width: none;
+}
+.author-overview p {
+  max-width: none;
+}
+.author-quote {
+  clear: both;
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #c28a36;
+  border-radius: 0 .5rem .5rem 0;
+  background: linear-gradient(110deg, #f7f0e2, #fffdf8);
+  color: #26384e;
+  box-shadow: 0 8px 22px rgba(16, 33, 56, .08);
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.75;
+}
+.author-links {
+  clear: both;
+  padding-top: .5rem;
+  font-weight: 700;
+}
+@media (max-width: 42rem) {
+  .author-overview .author-portrait {
+    float: none;
+    display: block;
+    width: min(68%, 16rem);
+    margin: 1.25rem auto 2rem;
+    aspect-ratio: 4 / 5;
+    shape-outside: none;
+  }
+  .author-quote {
+    padding: 1rem 1.1rem;
+  }
+}
